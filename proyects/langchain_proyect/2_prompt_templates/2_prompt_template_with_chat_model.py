@@ -3,10 +3,10 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv(dotenv_path="C:/Users/celio/OneDrive/Escritorio/programación/langchain/proyects/langchain_proyect/.env")
 
 # Create a ChatOpenAI model
-model = ChatOpenAI(model="gpt-4o")
+model = ChatOpenAI(model="gpt-4o-mini")
 
 # PART 1: Create a ChatPromptTemplate using a template string
 print("-----Prompt from Template-----")
