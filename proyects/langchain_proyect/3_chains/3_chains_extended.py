@@ -5,10 +5,10 @@ from langchain.schema.runnable import RunnableLambda
 from langchain_openai import ChatOpenAI
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv(dotenv_path="C:/Users/celio/OneDrive/Escritorio/programación/langchain/proyects/langchain_proyect/.env")
 
 # Create a ChatOpenAI model
-model = ChatOpenAI(model="gpt-4o")
+model = ChatOpenAI(model="gpt-4o-mini")
 
 # Define prompt templates
 prompt_template = ChatPromptTemplate.from_messages(
