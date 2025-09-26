@@ -22,7 +22,7 @@ chain = prompt_template | model | StrOutputParser()
 # chain = prompt_template | model
 
 # Run the chain
-result = chain.invoke({"topic": "lawyers", "joke_count": 3})
+result = chain.invoke({"topic": "engineers", "joke_count": 3})
 
 # Output
 print(result)
